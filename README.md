@@ -1,4 +1,4 @@
-# Calculadora Version 1
+# Calculadora Version 1.0
 
 Uma simples Calculadora feita com Windows Forms
 
@@ -6,9 +6,9 @@ Uma simples Calculadora feita com Windows Forms
 ## Funcionalidades
 
 - Soma
-- SubtraÁ„o
-- MultiplicaÁ„o
-- Divis„o
+- Subtra√ß√£o
+- Multiplica√ß√£o
+- Divis√£o
 
 
 ## Design
@@ -18,5 +18,5 @@ Uma simples Calculadora feita com Windows Forms
 
 ## Autores
 
-- [@Jo„o Lucas Claudino](https://github.com/ljoaolucasl)
+- [@Jo√£o Lucas Claudino](https://github.com/ljoaolucasl)
 
