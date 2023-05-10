@@ -20,19 +20,7 @@ namespace Atividade16_Calculadora.WinApp
 
             FiltrarCampo();
 
-            switch (button.Text)
-            {
-                case "0": textEntrada.Text += "0"; break;
-                case "1": textEntrada.Text += "1"; break;
-                case "2": textEntrada.Text += "2"; break;
-                case "3": textEntrada.Text += "3"; break;
-                case "4": textEntrada.Text += "4"; break;
-                case "5": textEntrada.Text += "5"; break;
-                case "6": textEntrada.Text += "6"; break;
-                case "7": textEntrada.Text += "7"; break;
-                case "8": textEntrada.Text += "8"; break;
-                case "9": textEntrada.Text += "9"; break;
-            }
+            textEntrada.Text += button.Text;
         }
 
         private void btnSinalClicado(object sender, EventArgs e)
