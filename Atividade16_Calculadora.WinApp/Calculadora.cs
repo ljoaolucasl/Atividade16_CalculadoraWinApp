@@ -27,13 +27,7 @@ namespace Atividade16_Calculadora.WinApp
         {
             Button button = sender as Button;
 
-            switch (button.Text)
-            {
-                case "+": InserirSinal("+"); break;
-                case "–": InserirSinal("–"); break;
-                case "×": InserirSinal("×"); break;
-                case "÷": InserirSinal("÷"); break;
-            }
+            InserirSinal(button.Text);
         }
 
         private void btnPorcentagem_Click(object sender, EventArgs e)
@@ -88,13 +82,7 @@ namespace Atividade16_Calculadora.WinApp
 
                 if (e.KeyChar == '+' || e.KeyChar == '-' || e.KeyChar == '*' || e.KeyChar == '/')
                 {
-                    switch (e.KeyChar)
-                    {
-                        case '+': InserirSinal("+"); break;
-                        case '-': InserirSinal("–"); break;
-                        case '*': InserirSinal("×"); break;
-                        case '/': InserirSinal("÷"); break;
-                    }
+                    InserirSinal(e.KeyChar.ToString());
                 }
 
                 if (e.KeyChar == (char)Keys.Back && textEntrada.Text != "")
@@ -158,9 +146,7 @@ namespace Atividade16_Calculadora.WinApp
         private void Limpar()
         {
             textEntrada.Text = "";
-
             labelViewConta.Text = "";
-
             primeiroNumero = "";
             segundoNumero = "";
             sinalEscolhido = "";
