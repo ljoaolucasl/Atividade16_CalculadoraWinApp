@@ -101,7 +101,7 @@ namespace Atividade16_Calculadora.WinApp
                 if (!labelViewConta.Text.Contains("="))
                     labelViewConta.Text += " " + textEntrada.Text + "  =";
 
-                if (primeiroNumero == "0")
+                if (textEntrada.Text == "0")
                 {
                     textEntrada.Text = "Impossível dividir por zero";
                     return;
